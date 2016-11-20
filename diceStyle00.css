@@ -1,0 +1,15 @@
+body{
+    background-color: azure;
+}
+
+#diceRow2, #diceRow4 {
+    background-color:lightgray;
+}
+
+#diceArea div {
+    padding: 0.8em;
+}
+
+#diceArea p{
+    padding-top: 0.6em;
+}
