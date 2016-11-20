@@ -1,13 +1,13 @@
+var dieTypes = [2, 3, 4, 6, 8, 10, 12, 20, 30, 100];
+
 setup();
 
 function setup() {
-    var dieTypes = [2, 3, 4, 6, 8, 10, 12, 20, 30, 100];
-    var end = dieTypes.length;
     var diceRow = 0;
-    for (var i = 0; i < end; i++) {
+    for (var i in dieTypes) {
         let sides = dieTypes[i];
         //setup Bootstrap container rows
-        if (i % 3 === 0){
+        if (i % 3 === 0) {
             diceRow++;
             var newContainer = $("<div></div>").addClass("container text-center");
             $(newContainer).attr("id", "diceRow" + diceRow);
@@ -30,6 +30,10 @@ function setup() {
 }
 
 function rollDx(sides) {
+    //clear previous results fields
+    for (var i in dieTypes) {
+        $("#d" + dieTypes[i]).text("--");
+    }
     var results = Dice.rollDice(sides);
     $("#d" + sides).text(results);
 }

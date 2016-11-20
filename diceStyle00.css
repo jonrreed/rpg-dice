@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+
 body{
     background-color: azure;
+    font-family:'Gentium Book Basic', serif;
 }
 
 #diceRow2, #diceRow4 {
