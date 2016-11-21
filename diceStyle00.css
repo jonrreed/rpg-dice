@@ -9,7 +9,7 @@ body{
     background-color: #006666;
     color:azure;
     padding: 0.6em 0 1.2em 0;
-    margin-top: 0.7em;
+    text-shadow: 3px 3px 2px black;
 }
 
 #diceArea div {
@@ -25,7 +25,12 @@ body{
 }
 
 #diceRow2, #diceRow4 {
-    background-color:#ccffff;;
+    background-color:#ccffff;
+}
+
+.content {
+    background-color: azure;
+    padding: 0.8em;
 }
 
 .btn{
