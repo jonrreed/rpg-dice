@@ -1,12 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
 
 body{
-    background-color: azure;
+    background-color: #001a1a;
     font-family:'Gentium Book Basic', serif;
 }
 
-#diceRow2, #diceRow4 {
-    background-color:lightgray;
+#header{
+    background-color: #006666;
+    color:azure;
+    padding: 0.6em 0 1.2em 0;
+    margin-top: 0.7em;
 }
 
 #diceArea div {
@@ -15,4 +18,27 @@ body{
 
 #diceArea p{
     padding-top: 0.6em;
+}
+
+#diceRow1, #diceRow3 {
+    background-color:azure;
+}
+
+#diceRow2, #diceRow4 {
+    background-color:#ccffff;;
+}
+
+.btn{
+    background-color: #80ffff;
+    transition: all 0.4s;
+}
+
+.btn:hover{
+    background-color: #00cccc;
+}
+
+#footer{
+    color:azure;
+    background-color: darkslategray;
+    padding:0.3em;
 }

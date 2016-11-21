@@ -17,6 +17,7 @@ function setup() {
         var newCol = $("<div></div>").addClass("col-sm-4");
         //setup button and function
         var newButton = $("<button></button>").text("d" + dieTypes[i]);
+        $(newButton).addClass("btn");
         newButton.click(function () { rollDx(sides); });
         //setup results field
         var newResult = $("<p></p>").text("--");
