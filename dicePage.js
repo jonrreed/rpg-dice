@@ -11,7 +11,7 @@ function setup() {
             diceRow++;
             var newContainer = $("<div></div>").addClass("container text-center");
             $(newContainer).attr("id", "diceRow" + diceRow);
-            $(diceArea).append(newContainer);
+            $("#diceArea").append(newContainer);
         }
         //setup a Bootstrap column
         var newCol = $("<div></div>").addClass("col-sm-4");
