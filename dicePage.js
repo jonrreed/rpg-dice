@@ -14,7 +14,7 @@ function setup() {
             $("#diceArea").append(newContainer);
         }
         //setup a Bootstrap column
-        var newCol = $("<div></div>").addClass("col-sm-4");
+        var newCol = $("<div></div>").addClass("col-md-4");
         //setup button and function
         var newButton = $("<button></button>").text("d" + dieTypes[i]);
         $(newButton).addClass("btn");
