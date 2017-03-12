@@ -14,6 +14,7 @@ body{
 
 #diceArea div {
     padding: 0.8em;
+    font-size:14pt;
 }
 
 #diceArea p{
@@ -36,6 +37,7 @@ body{
 .btn{
     background-color: #80ffff;
     transition: all 0.4s;
+    font-size: 14pt;
 }
 
 .btn:hover{
